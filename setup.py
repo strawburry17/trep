@@ -157,6 +157,7 @@ _trep = Extension('trep._trep',
                       'trep/_trep/potentials/gravity.c',
                       'trep/_trep/potentials/linearspring.c',
                       'trep/_trep/potentials/configspring.c',
+                      'trep/_trep/potentials/torsionalspring.c',
                       'trep/_trep/potentials/nonlinear_config_spring.c',
                       
                       # Forces

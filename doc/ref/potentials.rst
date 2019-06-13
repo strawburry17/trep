@@ -25,4 +25,5 @@ These are the types of potential energy currently built in to
    linearspring
    configspring
    nonlinearconfigspring
+   torsionalspring
    

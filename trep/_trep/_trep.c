@@ -28,6 +28,7 @@ extern PyTypeObject PointToPointConstraintType;
 extern PyTypeObject GravityPotentialType;
 extern PyTypeObject LinearSpringPotentialType;
 extern PyTypeObject ConfigSpringPotentialType;
+extern PyTypeObject TorsionalSpringPotentialType;
 extern PyTypeObject NonlinearConfigSpringType;
 
 // Force Types defined in trep/_trep/forces/*
@@ -85,6 +86,7 @@ PyMODINIT_FUNC init_trep(void)
         {"_HybridWrenchForce", &HybridWrenchForceType, 0},
         {"_SpatialWrenchForce", &SpatialWrenchForceType, 0},
         {"_ConfigSpringPotential", &ConfigSpringPotentialType, 0},
+        {"_TorsionalSpringPotential", &TorsionalSpringPotentialType, 0},
         {"_TapeMeasure", &TapeMeasureType, 0},
         {"_NonlinearConfigSpring", &NonlinearConfigSpringType, 0},
         {"_PistonExampleForce", &PistonExampleForceType, 0},
